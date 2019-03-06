@@ -27,7 +27,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Aaron McCormick Assignment 6.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="maya_tolappa_assignment6_tester.cpp">
       <Filter>Source Files</Filter>
