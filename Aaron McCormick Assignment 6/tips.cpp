@@ -1,6 +1,8 @@
 #include "tips.h"
 #include "pch.h"
 
+
+
 void Tips::setTax_rate(double _tax_rate)
 {
 	tax_rate = _tax_rate;

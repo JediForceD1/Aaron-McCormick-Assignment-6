@@ -4,8 +4,9 @@
 #include <iostream>
 #include "pch.h"
 #include <iomanip>
-using namespace std;
 #include "tips.h"
+
+using namespace std;
 void printDetails(Tips &);
 
 //------------- tester program ---------------------------------
