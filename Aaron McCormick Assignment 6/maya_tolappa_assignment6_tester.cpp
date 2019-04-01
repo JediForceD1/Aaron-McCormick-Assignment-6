@@ -28,6 +28,7 @@ int main()
 	mytips.setBill_after_taxes(104.56);
 	mytips.setTax_rate(6.25);
 	mytips.setTip_rate(10);
+
 	cout << "-------- Test case 2 ---------";
 	printDetails(mytips);
 
