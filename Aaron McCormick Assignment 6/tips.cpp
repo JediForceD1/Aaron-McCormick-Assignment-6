@@ -1,8 +1,6 @@
 #include "tips.h"
 #include "pch.h"
 
-
-
 void Tips::setTax_rate(double _tax_rate)
 {
 	tax_rate = _tax_rate;
@@ -41,18 +39,13 @@ double Tips::getBillAmountBeforeTaxes()
 
 double Tips::getTaxAmount()
 {
-	double bill_bef_tax = 0;
-	return bill_bef_tax;
+	double tax_amount = 0;
+	return tax_amount;
 }
-
 double Tips::getTotalBillAmount()
 {
-	double totalbill = 0;
-	return totalbill;
+	double total_bill = 0;
+	return total_bill;
 }
-
-
-
-
 
 

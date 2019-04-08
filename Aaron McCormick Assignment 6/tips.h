@@ -7,25 +7,25 @@ using namespace std;
 
 class Tips
 {
-	private:
-		double bill_after_taxes = 100,
+private:
+	double bill_after_taxes = 100,
 		tax_rate = 6.25,
 		tip_rate = 15;
 
-	public:
+public:
 	//-------- mutator functions ----------
-		void setTax_rate(double);
-		void setBill_after_taxes(double);
-		void setTip_rate(double);
+	void setTax_rate(double);
+	void setBill_after_taxes(double);
+	void setTip_rate(double);
 
 	//--------- accessor functions -------------
-		double getTax_rate();
-		double getBillAfterTaxes();
-		double getTip_rate();
+	double getTax_rate();
+	double getBillAfterTaxes();
+	double getTip_rate();
 
-	//--------- class functions that perform calculations / "read-only" properties---------
-		double getTipAmount();
-		double getBillAmountBeforeTaxes();
-		double getTaxAmount();
-		double getTotalBillAmount();
+	//----- class functions that perform calculations / "read-only" properties ------
+	double getTipAmount();
+	double getBillAmountBeforeTaxes();
+	double getTaxAmount();
+	double getTotalBillAmount();
 };
